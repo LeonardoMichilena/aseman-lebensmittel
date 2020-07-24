@@ -1,0 +1,32 @@
+/* MObile first styling */
+* {
+    box-sizing: border-box;
+}
+body {
+    margin: 5em 0 5em 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+}
+
+.title, .subtitle {
+    margin: 0;
+}
+main p {
+    font-size: 2em;
+}
+img {
+    background-size: contain;
+    width: 100px;
+    height: 60px;
+}
+footer {
+    margin-bottom: 3em;
+}
+
+.info.name, .info.email {
+    font-weight: bold;
+}
