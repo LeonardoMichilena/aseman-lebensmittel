@@ -3,7 +3,7 @@
     box-sizing: border-box;
 }
 body {
-    margin: 5em 0 5em 0;
+    margin: 5em auto 5em auto;
     width: 90%;
     height: 100%;
     display: flex;
