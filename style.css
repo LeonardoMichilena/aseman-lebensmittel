@@ -24,25 +24,10 @@ body {
     text-align: center;
     justify-content: space-between;
 }
-header {
-    display: flex;
-    flex-direction: column;
-    line-break: 0;
-    margin-top: 20px;
-    margin-bottom: 20px;
-    align-items: center;
-}
 header img {
-    width: 15rem;
-    height: 3rem;
-}
-.title h1 {
-    font-size: 5em;
-    margin: 0;
-}
-header h2 {
-    font-size: 1.5rem;
-    margin: 0;
+    margin: 1em;
+    width: 25em;
+    height: 10em;
 }
 main p {
     font-size: 2em;
