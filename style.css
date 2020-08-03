@@ -10,7 +10,7 @@ html, body {
 a {
     text-decoration: none;
     color: inherit;
-    cursor: grab;
+    cursor: pointer;
 }
 body {
     background-image: url(./img/bg-sky.jpg);
@@ -28,11 +28,17 @@ header {
     flex-direction: column;
     line-break: 0;
     margin-top: 20px;
+    align-items: center;
 }
 header img {
     width: 15rem;
     height: 3rem;
 }
+.title h1 {
+    font-size: 5em;
+    margin: 0;
+}
+
 header h2 {
     margin: 0;
     font-size: 1.5rem;
