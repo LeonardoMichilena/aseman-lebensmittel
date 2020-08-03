@@ -2,31 +2,60 @@
 * {
     box-sizing: border-box;
 }
+a {
+    text-decoration: none;
+    color: inherit;
+}
 body {
-    margin: 5em auto 5em auto;
+    margin: 20px auto 0 auto;
     width: 90%;
-    height: 100%;
     display: flex;
     flex-direction: column;
     text-align: center;
     justify-content: center;
 }
-
 .title, .subtitle {
     margin: 0;
+}
+header img {
+    width: 18rem;
+    height: 6rem;
 }
 main p {
     font-size: 2em;
 }
-img {
+.umbau {
     background-size: contain;
     width: 100px;
     height: 60px;
 }
+.order-box div{
+    display: flex;
+    color: red;
+    font-size: 3em;
+    justify-content: center;
+    width: fit-content;
+    border: 2px black solid;
+    margin: auto;
+}
+.chat img {
+    width: 5rem;
+    height: 5rem;
+    padding: 0.5em;
+}
+.order-box {
+    font-size: 0.5em;
+}
 footer {
-    margin-bottom: 3em;
+    display: flex;
+    flex-direction: column;
+}
+.footer-row-1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer-row-1 a,h5{
+    margin: 0.25em 0.25em;
 }
 
-.info.name, .info.email {
-    font-weight: bold;
-}
