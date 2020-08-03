@@ -15,9 +15,10 @@ a {
 body {
     background-image: url(./img/bg-sky.jpg);
     background-repeat: round;
-    margin: 1em auto 0 auto;
+    margin: 0;
     width: 100%;
     height: 100vh;
+    min-height: fit-content;
     display: flex;
     flex-direction: column;
     text-align: center;
@@ -28,6 +29,7 @@ header {
     flex-direction: column;
     line-break: 0;
     margin-top: 20px;
+    margin-bottom: 20px;
     align-items: center;
 }
 header img {
@@ -38,11 +40,9 @@ header img {
     font-size: 5em;
     margin: 0;
 }
-
 header h2 {
-    margin: 0;
     font-size: 1.5rem;
-    margin-bottom: 2em;
+    margin: 0;
 }
 main p {
     font-size: 2em;
