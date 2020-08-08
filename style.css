@@ -12,6 +12,13 @@ a {
     color: inherit;
     cursor: pointer;
 }
+ul {
+    list-style: none;
+}
+li {
+    margin: 0.5em;
+    font-size: 2em;
+}
 body {
     background-image: url(./img/bg-sky.jpg);
     background-repeat: no-repeat;
