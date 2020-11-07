@@ -6,11 +6,13 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 10vh;
-    font-size: 1em;
-    p {
+    height: 5vh;
+    font-size: 0.8em;
+    padding-top: 5px;
+    p, span{
         margin: 0;
-        padding: 0%;
+        padding: 0;
     }
 }
+
 
