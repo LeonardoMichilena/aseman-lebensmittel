@@ -1,5 +1,2 @@
 # Redirects from what the browser requests to what we serve
-/home              /
-/home             /home
-/data-protection   /data-protection
-/imprint           /imprint
+/*                /index.html   200
