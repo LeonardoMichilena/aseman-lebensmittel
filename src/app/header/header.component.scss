@@ -1,0 +1,23 @@
+.header {
+    display: flex;
+    font-size: 1.3em;
+    height: 15vh;
+    margin: 0;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 2px black solid;
+    img {
+        width: 200px;
+        height: 100px;
+    }
+    nav a{
+        margin: 10px;
+    }
+}
+@media screen and (max-width: 600px) {
+    .header {
+        display: flex;
+        flex-direction: column;
+        height: 20vh;
+    }
+}
