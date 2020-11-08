@@ -4,10 +4,10 @@
     font-family: 'Cairo', sans-serif;
 }
 body {
-    background-image: url('/assets/img/bg-sky.jpg');
     display: flex;
     height: 100%;
     width: 100%;
+    margin: none;
     max-height: 100vh;
     max-width: 100vw;
    flex-direction: column;

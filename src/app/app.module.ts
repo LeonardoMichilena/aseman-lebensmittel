@@ -9,6 +9,8 @@ import { FooterComponent } from './footer/footer.component';
 import { ImprintComponent } from './imprint/imprint.component';
 import { DataProtectionComponent } from './data-protection/data-protection.component';
 import { HomeComponent } from './home/home.component';
+import { ProductsComponent } from './products/products.component';
+import { CategoryCardComponent } from './category-card/category-card.component';
 
 @NgModule({
   declarations: [
@@ -18,7 +20,9 @@ import { HomeComponent } from './home/home.component';
     FooterComponent,
     ImprintComponent,
     DataProtectionComponent,
-    HomeComponent
+    HomeComponent,
+    ProductsComponent,
+    CategoryCardComponent
   ],
   imports: [
     BrowserModule,

@@ -1,10 +1,11 @@
 .main {
     display: flex;
     position: relative;
-    height: 72vh;
+    height: auto;
     margin: 0;
-    padding: 1em 3em;
+    padding: 1em 1em;
     flex-direction: column;
-    overflow: scroll;
+    overflow-wrap: break-word;
+    padding-bottom: 40px;
 }
 

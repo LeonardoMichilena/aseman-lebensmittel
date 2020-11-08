@@ -1,14 +1,14 @@
 .footer {
     display: flex;
     width: 100%;
-    position: absolute;
-    bottom: 0;
+    position: fixed;
+    bottom: 0px;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    height: 5vh;
     font-size: 0.8em;
-    padding-top: 5px;
+    background-color: white;
+
     p, span{
         margin: 0;
         padding: 0;
