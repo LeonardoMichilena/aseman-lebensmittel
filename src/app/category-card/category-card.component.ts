@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input } from '@angular/core';
 
 @Component({
   selector: 'app-category-card',
@@ -7,7 +7,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class CategoryCardComponent implements OnInit {
 
+  @Input() title: string; // Name of the category in the card
+  @Input() imageUrl: string // Url of the image inside de card
+  
   constructor() { }
+  
 
   ngOnInit(): void {
   }
