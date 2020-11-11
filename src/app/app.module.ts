@@ -11,6 +11,9 @@ import { DataProtectionComponent } from './data-protection/data-protection.compo
 import { HomeComponent } from './home/home.component';
 import { ProductsComponent } from './products/products.component';
 import { CategoryCardComponent } from './category-card/category-card.component';
+import { ContactComponent } from './contact/contact.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { ShoppingCartComponent } from './shopping-cart/shopping-cart.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +25,10 @@ import { CategoryCardComponent } from './category-card/category-card.component';
     DataProtectionComponent,
     HomeComponent,
     ProductsComponent,
-    CategoryCardComponent
+    CategoryCardComponent,
+    ContactComponent,
+    AboutUsComponent,
+    ShoppingCartComponent
   ],
   imports: [
     BrowserModule,
